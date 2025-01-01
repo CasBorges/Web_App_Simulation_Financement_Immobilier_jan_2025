@@ -441,7 +441,7 @@ def creer_pdf(df_resultats, logo_path='1_Logo.png'):
             
             # Texte du pied de page
             self.set_font('Arial', 'I', 8)
-            self.cell(0, 10, "© 2024 - Simulation de financement immobilier. Réalisé par CBorges. Tous droits réservés.", align='C')
+            self.cell(0, 10, "© 2025 - Simulation de financement immobilier. Réalisé par CBorges. Tous droits réservés.", align='C')
 
     # Initialiser le PDF
     pdf = PDF()
@@ -902,7 +902,7 @@ st.markdown(
     <hr style="border:1px solid gray"> </hr>
     <footer style='text-align: center; font-size: 12px; color: gray;'>
         <img src='data:image/png;base64,{logo_base64}' alt='Logo' width='100'><br>
-        © 2024 - Simulation de financement immobilier. Réalisé par CBorges. Tous droits réservés.
+        © 2025 - Simulation de financement immobilier. Réalisé par CBorges. Tous droits réservés.
     </footer>
     """, 
     unsafe_allow_html=True
