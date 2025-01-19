@@ -8,7 +8,7 @@ from io import BytesIO
 from fpdf import FPDF
 import locale
 
-<!-- Google tag (gtag.js) -->
+# Google tag (gtag.js)
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-209NLNC6DD"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
