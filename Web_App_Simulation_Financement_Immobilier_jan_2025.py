@@ -8,17 +8,6 @@ from io import BytesIO
 from fpdf import FPDF
 import locale
 
-# Google tag (gtag.js)
-# <script async src="https://www.googletagmanager.com/gtag/js?id=G-209NLNC6DD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-209NLNC6DD');
-</script>
-
-
 # Définir le format local pour l'affichage des nombres
 try:
     locale.setlocale(locale.LC_NUMERIC, 'French_France')
